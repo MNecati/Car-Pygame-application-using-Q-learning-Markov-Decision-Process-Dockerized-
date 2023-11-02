@@ -7,7 +7,7 @@ matrix_size = 5
 matrix = np.zeros((matrix_size, matrix_size))
 cell_size = 100
 
-## localde caliştirmak icin :: image_path = "C:/Users/pc/OneDrive/Masaüstü/markov decision procces/images/"
+## localde calistirmak icin image klasorunu indirin ve yandaki koda image klasorunun pathini yazin:: image_path = "C:/Users/pc/OneDrive/Masaüstü/markov decision procces/images/"
 
 # Docker konteyner içerisinde çalışırken dosyaların yolu
 image_path = "/usr/src/app/images/"
