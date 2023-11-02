@@ -18,11 +18,13 @@ Below you'll find instructions on how to use the application with two different 
    
  ```bash
    docker pull mnecati/markovneco:v1
+```
 
 2. Run the docker container:
 
  ```bash
    docker run -it --rm -e DISPLAY=host.docker.internal:0.0 mnecati/markovneco:v1
+```
 
 ## 2. Running without Docker
 
@@ -34,8 +36,10 @@ Below you'll find instructions on how to use the application with two different 
 
  ```bash
    # image_path = "/usr/src/app/images/" (enter # at the start)
+```
 
 3. Activate the path in line 10 and provide the correct path:
 
   ```bash
    image_path = "C:/Users/pc/OneDrive/Masasütü/markov decision proces/images/" (remove # at the start)
+  ```
