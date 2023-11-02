@@ -35,7 +35,7 @@ Below you'll find instructions on how to use the application with two different 
 2. After downloading, you need to comment out the Docker-specific path in the code, which is on line 13.
 
  ```bash
-   # image_path = "/usr/src/app/images/" (enter # at the start)
+   # image_path = "/usr/src/app/images/" (put # at the start)
 ```
 
 3. Activate the path in line 10 and provide the correct path:
