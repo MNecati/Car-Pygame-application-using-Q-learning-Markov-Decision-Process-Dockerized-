@@ -41,5 +41,5 @@ Below you'll find instructions on how to use the application with two different 
 3. Activate the path in line 10 and provide the correct path:
 
   ```bash
-   image_path = "C:/Users/pc/OneDrive/Masasütü/markov decision proces/images/" (remove # at the start)
+   image_path = "C:/Users/pc/desktop/your_example_file/images/" (remove # at the start)
   ```
