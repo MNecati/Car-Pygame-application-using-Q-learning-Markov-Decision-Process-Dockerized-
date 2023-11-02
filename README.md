@@ -12,7 +12,7 @@ Below you'll find instructions on how to use the application with two different 
   
   - [Download VcXsrv for Windows](https://sourceforge.net/projects/vcxsrv/)
   
-  - After downloading, run the application to set it up.
+  - After downloading, run the VcXsrv to set it up.
 
 ### Steps:
 
