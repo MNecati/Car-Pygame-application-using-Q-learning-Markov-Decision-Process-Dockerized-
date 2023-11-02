@@ -11,6 +11,8 @@ Below you'll find instructions on how to use the application with two different 
 - Ensure you have **VcXsrv** installed on your Windows machine.
   
   - [Download VcXsrv for Windows](https://sourceforge.net/projects/vcxsrv/)
+  
+  - After downloading, run the application to set it up.
 
 ### Steps:
 
