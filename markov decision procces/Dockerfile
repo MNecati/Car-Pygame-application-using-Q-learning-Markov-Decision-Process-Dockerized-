@@ -20,6 +20,7 @@ COPY requirements.txt .
 COPY images/ images/
 
 RUN pip install --no-cache-dir -r requirements.txt
+#Pygame default ALSA seslerinin cikarilmasi (sessiz uygulama)
 RUN echo "pcm.!default { type hw card 0 }" > /etc/asound.conf
 RUN echo "ctl.!default { type hw card 0 }" >> /etc/asound.conf
 
