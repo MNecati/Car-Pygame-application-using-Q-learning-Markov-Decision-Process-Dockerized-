@@ -15,11 +15,13 @@ Below you'll find instructions on how to use the application with two different 
 ### Steps:
 
 1. Pull the docker image from the repository:
-
+   
+ ```bash
    docker pull mnecati/markovneco:v1
 
 2. Run the docker container:
 
+ ```bash
    docker run -it --rm -e DISPLAY=host.docker.internal:0.0 mnecati/markovneco:v1
 
 ## 2. Running without Docker
@@ -30,8 +32,10 @@ Below you'll find instructions on how to use the application with two different 
 
 2. After downloading, you need to comment out the Docker-specific path in the code, which is on line 13.
 
-   # image_path = "/usr/src/app/images/"
+ ```bash
+   # image_path = "/usr/src/app/images/" (enter # at the start)
 
 3. Activate the path in line 10 and provide the correct path:
 
-   image_path = "C:/Users/pc/OneDrive/Masasütü/markov decision proces/images/"
+  ```bash
+   image_path = "C:/Users/pc/OneDrive/Masasütü/markov decision proces/images/" (remove # at the start)
