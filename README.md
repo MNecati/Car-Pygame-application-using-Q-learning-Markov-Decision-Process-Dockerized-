@@ -1,4 +1,4 @@
-# Car-Pygame-application-using-Q-learning-Markov-Decision-Process-Dockerized-
+# Car AI using Q-learning Markov Decision Process Pygame application (Dockerized)
 
 # Application Usage
 
